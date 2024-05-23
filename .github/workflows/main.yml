@@ -2,6 +2,9 @@ name: Docker Image CI
 on:
   push:
     branches: ["main"]
+    paths:
+      - "Dockerfile"
+      - "launch.sh"
   # pull_request:
   #   branches: ["main"]
   workflow_dispatch:
