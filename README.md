@@ -63,6 +63,6 @@ Github: https://github.com/Robonau/docker-ftbskies-expert
 
 Docker: https://github.com/Robonau/docker-ftbskies-expert
 
-Original Template is by Goobaroo
+Original Template is by [Goobaroo](https://github.com/Goobaroo/docker-ftbskies)
 
-Workflows partially from math7935/docker-ftbskies-expert
+Workflows partially from [math7935](https://github.com/math7935/docker-ftbskies-expert)
