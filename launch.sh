@@ -24,6 +24,7 @@ if ! [[ -f serverinstall_${ID}_${VER} ]]; then
   curl -Lo serverinstall_${ID}_${VER} https://api.modpacks.ch/public/modpack/${ID}/${VER}/server/linux
   chmod +x serverinstall_${ID}_${VER}
    ./serverinstall_${ID}_${VER} --path /data --nojava
+  rm -f ./mods/entity_model_features_forge_*.jar ./mods/entity_texture_features_forge_*.jar
 fi
 
 if [[ -n "$MOTD" ]]; then
