@@ -1,4 +1,4 @@
-# [FTB Skies](https://feed-the-beast.com/modpacks/117-ftb-skies-expert) By FTB
+# [FTB Skies Expert](https://feed-the-beast.com/modpacks/117-ftb-skies-expert) By FTB
 
 <!-- toc -->
 
