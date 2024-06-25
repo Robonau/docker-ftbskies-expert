@@ -1,7 +1,7 @@
 name: Docker Image CI
 on:
   push:
-    branches: ["main"]
+    branches: ["FTB-Sky-Odyssey"]
     paths:
       - "Dockerfile"
       - "launch.sh"
@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository_owner }}/ftb-sky-odyssey
 
 jobs:
   docker:
